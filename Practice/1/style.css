@@ -1,0 +1,29 @@
+table#t1{
+
+    width:100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: #fce59f;
+}
+
+
+
+table#t1 th{
+    background-color:tomato;
+}
+table#t1 tr:nth-child(even){
+    background-color:white ;
+}
+table#t1 tr:hover{
+    background-color:tomato;
+    color:black;
+    
+}
+
+
+.container{
+    width: 70%;
+    margin:auto;
+    
+}
+

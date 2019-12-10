@@ -1,0 +1,73 @@
+/* label{
+    margin-right: 75px;
+} */
+/* form-control{
+    width: 10px;
+} */
+#lblheader{
+   text-align: center;
+
+}
+.table
+{
+width: 50%;
+margin-top: 1%;
+border-collapse: collapse;
+background-color: #fbde08;
+
+}
+tr:nth-child(even){
+  background-color: white;
+}
+tr:hover{
+  background-color: tomato;
+}
+/* .form-control{
+  width: 200px;
+  margin-top: -30px;
+  margin-left: auto; 
+  overflow:visible;
+  display: block; 
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s e
+
+} */
+.img{
+  width:20%;
+}
+#spanInput{
+  width:40%;
+    font-size: 20px;
+    color:rgb(245, 67, 76);
+   margin:auto;
+   text-align: left;
+    
+}
+
+
+
+.my-text{
+    position:relative; /* probably don't need this */
+    left:150px; 
+    margin-left: auto;       /* probably don't need this */
+      
+    padding-bottom:15px ;    
+        width :200px;    /* probably don't need this */
+      height: 30px;    /* probably don't need this */
+    font:20px Georgia, Garamond, Serif;
+    background-color: white;
+    border:1px solid #ccc; 
+    overflow:auto;
+    color:black;
+    border-radius: 4px;
+  }

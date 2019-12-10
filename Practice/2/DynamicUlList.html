@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="list">
+
+    </ol>
+    <script>
+        let msg =[
+    {categories:"Electronics",
+        Items:['Tv','Mobile']
+    },
+    {
+        categories:"Shoe",
+        Items:['Bata','Nike']
+    }
+]
+let list=document.getElementById('list')
+for(i=0;i<msg.length;i++){
+let li = document.createElement('li')
+let text = document.createTextNode(msg[i].categories)
+li.appendChild(text);
+list.appendChild(li);
+    for(j=0;j<msg[i].Items.length;j++)
+    {
+        let ul = document.createElement('ul');
+        let nestedLi =  document.createElement('li');
+        //let text = document.createTextNode(msg[i].Items[j]);
+        nestedLi.innerHTML=msg[i].Items[j]
+        ul.appendChild(nestedLi);
+        list.appendChild(ul);
+    }
+}
+
+    </script>
+</body>
+
+</html>
